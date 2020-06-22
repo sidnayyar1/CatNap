@@ -37,6 +37,7 @@
 		01D5D9AE24A1167600E3013F /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9A224A1167600E3013F /* CGFloat+Extensions.swift */; };
 		01D5D9B024A117F300E3013F /* BedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9AF24A117F300E3013F /* BedNode.swift */; };
 		01D5D9B224A118E400E3013F /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9B124A118E400E3013F /* CatNode.swift */; };
+		01D5D9B424A11E6000E3013F /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9B324A11E6000E3013F /* BlockNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		01D5D9A224A1167600E3013F /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 		01D5D9AF24A117F300E3013F /* BedNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedNode.swift; sourceTree = "<group>"; };
 		01D5D9B124A118E400E3013F /* CatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
+		01D5D9B324A11E6000E3013F /* BlockNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				01D5D97B24A1074400E3013F /* Info.plist */,
 				01D5D9AF24A117F300E3013F /* BedNode.swift */,
 				01D5D9B124A118E400E3013F /* CatNode.swift */,
+				01D5D9B324A11E6000E3013F /* BlockNode.swift */,
 			);
 			path = CatNap;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				01D5D9A624A1167600E3013F /* SKTTimingFunctions.swift in Sources */,
 				01D5D9AD24A1167600E3013F /* Vector3.swift in Sources */,
 				01D5D9A724A1167600E3013F /* SKAction+Extensions.swift in Sources */,
+				01D5D9B424A11E6000E3013F /* BlockNode.swift in Sources */,
 				01D5D9B024A117F300E3013F /* BedNode.swift in Sources */,
 				01D5D97224A1074200E3013F /* GameViewController.swift in Sources */,
 				01D5D9B224A118E400E3013F /* CatNode.swift in Sources */,
