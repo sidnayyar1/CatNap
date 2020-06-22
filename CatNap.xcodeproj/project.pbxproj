@@ -20,6 +20,7 @@
 		01D5D98924A107A300E3013F /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D98424A107A300E3013F /* win.mp3 */; };
 		01D5D98A24A107A300E3013F /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D98524A107A300E3013F /* lose.mp3 */; };
 		01D5D98B24A107A300E3013F /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D98624A107A300E3013F /* backgroundMusic.mp3 */; };
+		01D5D99024A10B0600E3013F /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D98F24A10B0600E3013F /* Cat.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		01D5D98424A107A300E3013F /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		01D5D98524A107A300E3013F /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		01D5D98624A107A300E3013F /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		01D5D98F24A10B0600E3013F /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,9 @@
 		01D5D96824A1074200E3013F /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				01D5D98C24A10A7300E3013F /* Scenes */,
 				01D5D98124A107A300E3013F /* Sounds */,
 				01D5D96924A1074200E3013F /* AppDelegate.swift */,
-				01D5D96B24A1074200E3013F /* GameScene.sks */,
 				01D5D96D24A1074200E3013F /* Actions.sks */,
 				01D5D96F24A1074200E3013F /* GameScene.swift */,
 				01D5D97124A1074200E3013F /* GameViewController.swift */,
@@ -94,6 +96,15 @@
 				01D5D98624A107A300E3013F /* backgroundMusic.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		01D5D98C24A10A7300E3013F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				01D5D96B24A1074200E3013F /* GameScene.sks */,
+				01D5D98F24A10B0600E3013F /* Cat.sks */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				01D5D98824A107A300E3013F /* pop.mp3 in Resources */,
 				01D5D98B24A107A300E3013F /* backgroundMusic.mp3 in Resources */,
 				01D5D96E24A1074200E3013F /* Actions.sks in Resources */,
+				01D5D99024A10B0600E3013F /* Cat.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
