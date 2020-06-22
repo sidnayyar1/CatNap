@@ -22,6 +22,7 @@
 		01D5D98B24A107A300E3013F /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D98624A107A300E3013F /* backgroundMusic.mp3 */; };
 		01D5D99024A10B0600E3013F /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D98F24A10B0600E3013F /* Cat.sks */; };
 		01D5D99224A1117C00E3013F /* CatCurl.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D99124A1117C00E3013F /* CatCurl.sks */; };
+		01D5D99424A1120D00E3013F /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01D5D99324A1120D00E3013F /* CatWakeUp.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		01D5D98624A107A300E3013F /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 		01D5D98F24A10B0600E3013F /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
 		01D5D99124A1117C00E3013F /* CatCurl.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatCurl.sks; sourceTree = "<group>"; };
+		01D5D99324A1120D00E3013F /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				01D5D96B24A1074200E3013F /* GameScene.sks */,
 				01D5D98F24A10B0600E3013F /* Cat.sks */,
 				01D5D99124A1117C00E3013F /* CatCurl.sks */,
+				01D5D99324A1120D00E3013F /* CatWakeUp.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				01D5D96C24A1074200E3013F /* GameScene.sks in Resources */,
 				01D5D98A24A107A300E3013F /* lose.mp3 in Resources */,
 				01D5D97724A1074400E3013F /* Assets.xcassets in Resources */,
+				01D5D99424A1120D00E3013F /* CatWakeUp.sks in Resources */,
 				01D5D99224A1117C00E3013F /* CatCurl.sks in Resources */,
 				01D5D98924A107A300E3013F /* win.mp3 in Resources */,
 				01D5D97A24A1074400E3013F /* LaunchScreen.storyboard in Resources */,
