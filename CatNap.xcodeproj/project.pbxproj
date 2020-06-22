@@ -35,6 +35,8 @@
 		01D5D9AC24A1167600E3013F /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9A024A1167600E3013F /* SKTAudio.swift */; };
 		01D5D9AD24A1167600E3013F /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9A124A1167600E3013F /* Vector3.swift */; };
 		01D5D9AE24A1167600E3013F /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9A224A1167600E3013F /* CGFloat+Extensions.swift */; };
+		01D5D9B024A117F300E3013F /* BedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9AF24A117F300E3013F /* BedNode.swift */; };
+		01D5D9B224A118E400E3013F /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D9B124A118E400E3013F /* CatNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		01D5D9A024A1167600E3013F /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
 		01D5D9A124A1167600E3013F /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		01D5D9A224A1167600E3013F /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		01D5D9AF24A117F300E3013F /* BedNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedNode.swift; sourceTree = "<group>"; };
+		01D5D9B124A118E400E3013F /* CatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		01D5D95D24A1074200E3013F = {
 			isa = PBXGroup;
 			children = (
+				01D5D99624A1167600E3013F /* SKTUtils */,
 				01D5D96824A1074200E3013F /* CatNap */,
 				01D5D96724A1074200E3013F /* Products */,
 			);
@@ -100,7 +105,6 @@
 		01D5D96824A1074200E3013F /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
-				01D5D99624A1167600E3013F /* SKTUtils */,
 				01D5D98C24A10A7300E3013F /* Scenes */,
 				01D5D98124A107A300E3013F /* Sounds */,
 				01D5D96924A1074200E3013F /* AppDelegate.swift */,
@@ -111,6 +115,8 @@
 				01D5D97624A1074400E3013F /* Assets.xcassets */,
 				01D5D97824A1074400E3013F /* LaunchScreen.storyboard */,
 				01D5D97B24A1074400E3013F /* Info.plist */,
+				01D5D9AF24A117F300E3013F /* BedNode.swift */,
+				01D5D9B124A118E400E3013F /* CatNode.swift */,
 			);
 			path = CatNap;
 			sourceTree = "<group>";
@@ -247,7 +253,9 @@
 				01D5D9A624A1167600E3013F /* SKTTimingFunctions.swift in Sources */,
 				01D5D9AD24A1167600E3013F /* Vector3.swift in Sources */,
 				01D5D9A724A1167600E3013F /* SKAction+Extensions.swift in Sources */,
+				01D5D9B024A117F300E3013F /* BedNode.swift in Sources */,
 				01D5D97224A1074200E3013F /* GameViewController.swift in Sources */,
+				01D5D9B224A118E400E3013F /* CatNode.swift in Sources */,
 				01D5D9A524A1167600E3013F /* Int+Extensions.swift in Sources */,
 				01D5D9AA24A1167600E3013F /* CGPoint+Extensions.swift in Sources */,
 				01D5D9A924A1167600E3013F /* SKNode+Extensions.swift in Sources */,
